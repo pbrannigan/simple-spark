@@ -1,4 +1,4 @@
-name := "Simple Project"
+name := "simple-spark"
 
 version := "1.0"
 

@@ -25,7 +25,7 @@ object SimpleApp {
       .set("spark.akka.heartbeat.interval", "100")
       
     val sc = new SparkContext(conf)
-    sc.addJar("/home/patrick/simple/src/main/resources/simple-project_2.10-1.0.jar")
+    sc.addJar("/home/patrick/simple-spark/target/scala-2.10/simple-project_2.10-1.0.jar")
     try {
       val list = List(199000, 200000, 350000, 375000, 500000, 460000, 370000)
       val rdd = sc.parallelize(list)
