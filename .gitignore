@@ -1,6 +1,8 @@
 *.class
 *.log
 .cache-main
+.DS_Store
+._*
 
 # sbt specific
 .cache
@@ -20,3 +22,4 @@ project/plugins/project/
 .project
 .settings/
 /bin/
+/metastore_db/
