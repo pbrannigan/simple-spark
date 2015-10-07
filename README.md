@@ -6,7 +6,9 @@ SETUP SPARK
 
 Copy the oracle database driver to /opt/spark/lib/
 
-cp ~/.ivy2/cache/com.oracle/ojdbc6/jars/ojdbc6-11.2.0.3.0-1.jar /opt/spark/lib/.
+sudo mkdir /opt/spark
+sudo mkdir /opt/spark/lib
+sudo cp ~/.ivy2/cache/com.oracle/ojdbc6/jars/ojdbc6-11.2.0.3.0-1.jar /opt/spark/lib/.
 
 add to the /usr/lib/spark/conf/spark-env.sh:
 
